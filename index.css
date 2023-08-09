@@ -1,0 +1,121 @@
+html {
+  font-family: "D-DIN", sans-serif;
+  font-family: "D-DIN Condensed", sans-serif;
+  font-family: "D-DIN Exp", sans-serif;
+}
+ body {
+margin: 0;
+}
+main{
+  margin-top: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}
+.backgroundImg1 {
+  height: 100vh;
+  width: 90vw;
+  position: relative;
+  z-index: -100;
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+ .firstPart {
+  display: flex;
+  justify-content: flex-start;
+}
+.img1 { 
+  margin-left: 110px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 26px;
+  filter: invert(100%);
+}
+header > section1 {
+  display: flex;
+}
+.headerText {
+  margin: 10px;
+  color: white;
+  font-family: futura, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 9pt;
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}
+header > section2 {
+  display: flex;
+  margin-right: 30px;
+  padding: 30px;
+}
+.img2 {
+  height: 15px;
+  filter: invert(100%);
+  display: flex;
+  align-self: center;
+}
+.shopBar {
+  margin: 10px;
+  color: white;
+  font-family: futura, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 9pt;
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+}
+#background1 {
+  background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G6_20_Streak_3883_Desktop_2a27c7c2d3.jpg');
+
+}
+ #background2 {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_8_DSC_6243_desktop_fab8367da5.jpg");
+
+ }
+
+#background3 {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Galaxy37_outsidesouthtwr_IMG_3067_desktop_7795e60faa.jpg");
+  
+
+} 
+#background4 {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Jup3_Echo24_outsidebeachh_IMG_0087_desktop_8f619083ab.jpg");
+
+} 
+#background5 {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg");
+  
+}
+.background {
+  background-size: cover;
+  display: block;
+  height: 100vh;
+  width: auto;
+}
+footer {
+  height: 11vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+footer > div {
+  margin: 20px;
+  color: white;
+  font-family: futura, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 9pt;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
